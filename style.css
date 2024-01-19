@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assests/bg1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Main_Box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h4{
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+}
+
+.time{
+    display: flex;
+    gap: 10px;
+}
+
+#hr,#min,#sec{
+    padding: 16px;
+    background-color: slateblue;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#format{
+    height: min-content;
+     position: relative;
+     top: 44px;
+     padding: 3px;
+     font-size: 20px;
+     font-weight: bold;
+     background: green;
+}
