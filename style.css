@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/assests/bg1.jpeg);
+    background-image: url(/bg1.jpeg);
     background-position: center;
     background-repeat: no-repeat;
 }
